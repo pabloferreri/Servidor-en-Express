@@ -21,3 +21,15 @@ app.get('/berners-lee', (req,res) =>{
 app.get('/clarke', (req,res) =>{
     res.sendFile(path.join(__dirname,'./clarke/clarke.html'))
 })
+
+app.get('/hamilton', (req,res) =>{
+    res.sendFile(path.join(__dirname,'./hamilton/hamilton.html'))
+})
+
+app.get('/hopper', (req,res) =>{
+    res.sendFile(path.join(__dirname,'./hopper/hopper.html'))
+})
+
+app.get('/lovelace', (req,res) =>{
+    res.sendFile(path.join(__dirname,'./lovelace/lovelace.html'))
+})
