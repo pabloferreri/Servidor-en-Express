@@ -33,3 +33,7 @@ app.get('/hopper', (req,res) =>{
 app.get('/lovelace', (req,res) =>{
     res.sendFile(path.join(__dirname,'./lovelace/lovelace.html'))
 })
+
+app.get('/turing', (req,res) =>{
+    res.sendFile(path.join(__dirname,'./turing/turing.html'))
+})
